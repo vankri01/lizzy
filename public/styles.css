@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3') no-repeat center center fixed;
+  background-size: cover; /* Ensure the image covers the entire page */
+  /*color: #333; /* Dark color for text for contrast */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  position: relative;
+  /*background: rgba(255, 255, 255, 0.8); /* Slightly opaque white background for form container */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+}
+
+.header {
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.header-image {
+  width: 50%; /* Adjusted size for the header image */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 auto; /* Center the image */
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  color: #333; /* Dark color for text */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Improve text visibility */
+}
+
+.form {
+  /*background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"] {
+  width: 100%; /* Full width of container */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #ff6f61; /* Coral color for button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #e55b54;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

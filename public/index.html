@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Itinerary Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <!-- <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3" alt="Travel Image" class="header-image"> -->
+      <h1>Create your Travel Itinerary</h1>
+    </div>
+    <form id="itineraryForm" class="form">
+      <!-- input fields for user -->
+      <div class="input-container">
+        
+        <input type="text" id="name" name="name" placeholder="Name" required>
+      </div>
+      <div class="input-container">
+        
+        <input type="email" id="email" name="email" placeholder="Email" required>
+      </div>
+      <div class="input-container">
+        
+        <input type="text" id="destination" name="destination" placeholder="Destination" required>
+      </div>
+      <div class="input-container">
+        
+        <input type="date" id="travelDates" name="travelDates" required>
+      </div>
+      <div class="input-container">
+        
+        <input type="number" id="tripDuration" name="tripDuration" placeholder="Trip Duration (days)" required>
+      </div>
+      <div class="input-container">
+        
+        <input type="text" id="budgetFood" name="budgetRatio" placeholder="Budget of Food (e.g., Food:50%, Activities:50%)" required>
+      </div>
+      <div class="input-container">
+        
+        <input type="text" id="budgetActivities" name="budgetActivities" placeholder="Budget of Activities (e.g., Food:50%, Activities:50%)" required>
+      </div>
+      <div class="input-container">
+         
+        <input type="text" id="interests" name="interests" placeholder="Interests (e.g., Hiking, Museums)" required>
+      </div>
+      <button type="submit">Generate Itinerary</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
