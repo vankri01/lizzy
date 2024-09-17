@@ -1,1 +1,1 @@
-A web application that generates personalized travel itineraries based on user preferences, such as budget, interests, and trip duration. It provides a user-friendly interface for inputting preferences and deliver detailed, dynamic itineraries tailored to individual users.
+A web application that generates personalized travel itineraries based on user preferences, such as budget, interests, and trip duration. It provides a user-friendly interface for inputting preferences and delivers detailed, dynamic itineraries tailored to individual users.
